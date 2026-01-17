@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       ),
       routes: {
         '/': (context) => const MyHomePage(),
-        '/rectangle_pege': (context) => const RectanglePege(),
+        '/rectangle': (context) => const RectanglePege(),
         '/parallelogram': (context) => const ParallelogramPage(),
       },
     );
